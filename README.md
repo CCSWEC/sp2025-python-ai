@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 - This is just a fancy term for a protected code that is used for the user to gain access to the AI services.
 - It's very important to add your own key to the .env file so that personal data isn't stolen (Data leaks are very bad).
-- You can create an OPENAI token here if the current code fails: [openai keys](https://platform.openai.com/settings/proj_EZRi05G96jK34lz6zXb4FF5Z/api-keys)
+- You can create an OPENAI token here if the current code fails: [openai keys](https://platform.openai.com/settings/organization/api-keys)
 
 #### Project Objectives:
 
