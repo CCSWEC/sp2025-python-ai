@@ -1,0 +1,29 @@
+# Ignore .env file containing sensitive API keys
+.env
+
+# Ignore key.env (if you're using this to store the API key)
+key.env
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore Python virtual environment (common directory names)
+venv/
+.env/
+env/
+
+# Ignore IDE-specific files (e.g., VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore any other files or directories that are automatically generated
+*.pyc
+*.pyo
+*.pyd
