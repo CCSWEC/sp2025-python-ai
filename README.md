@@ -57,14 +57,11 @@ In order to begin contributing, you will have to clone the project from GitHub u
 
 In VSCode, open the explorer sidebar by pressing the explorer (overlapping pages) icon on the sidebar. (If it was already open, it will close. Press again to reopen it.)
 
-If you don't see a "Clone Repository" button in the sidebar, use File -> Close Folder, and then "Clone Repository" should appear in the explorer sidebar.
+If you don't see a "Clone Repository" button in the sidebar, use File -> Close Folder, and then the "Clone Repository" button should appear in the explorer sidebar.
 
-Press "Clone Repository," then select "Clone from GitHub" in the dialog. Sign in to GitHub if necessary. Search the list and select "CCSWEC/sp2025-python-ai".
-Then choose a folder to store your copy, and, if asked, select the option to open the repository in the current window.
-If prompted, select the option to trust this repository.
+Press "Clone Repository," then select "Clone from GitHub" in the dialog. Sign in to GitHub if necessary. Search the list and select "CCSWEC/sp2025-python-ai." Then choose a folder to store your copy, and, if asked, select the option to open the repository in the current window. If prompted, select the option to trust this repository.
 
-Once the project is loaded in VSCode (which may take a couple of minutes because of the build process), press the elephant icon in the sidebar to open the Gradle panel.
-Expand the "Tasks" menu, and then the "application" section.
+Once the project is loaded in VSCode (which may take a couple of minutes), open the Python terminal or Python environment panel. Expand the "Tasks" menu, and if you need to run any Python-related tasks, they can be found there.
 
 #### Using PyCharm
 
@@ -72,7 +69,7 @@ Find the configuration dropdown in the top bar (it's just left of the green run 
 Expand the dropdown and press "Edit Configurations."
 
 In the dialog, press the plus icon near the top left and select Python.
-Then, with the new Python task selected in the sidebar, change the name field to "PythonAI" and the "Script path" field to the path of your Python file (e.g., run.py).
+Then, with the new Python task selected in the sidebar, change the name field to "PythonAI" and the "Script path" field to the path of your Python file (chatbot.py).
 Close the dialog. Then make sure your new PythonAI target is selected in the configuration dropdown.
 
 After this, you can run the project by pressing the green run arrow icon.
