@@ -20,7 +20,7 @@ This is the version control and the tool we will be using to update and upload o
 
 You can find the link to install it here: [Git website](https://git-scm.com/)
 
-In the installation manager, you should go with the default options. If it asks you for a text editor, nano is highly recommended.
+In the installation manager, you should go with the default options.
 
 #### Install Python
 
@@ -31,8 +31,6 @@ The latest version is consistently posted on python's website:
 [Python download page](https://www.python.org/downloads/)
 
 #### Which Editor to use?
-
-Here are my recommendations:
 
 - **VSCode:**
     - Lightweight text editor which is good for general purpose projects. Additional set up is required but it's more adaptable and extensive to other features. 
@@ -73,11 +71,12 @@ Expand the "Tasks" menu, and then the "application" section.
 Find the configuration dropdown in the top bar (it's just left of the green run arrow icon).
 Expand the dropdown and press "Edit Configurations."
 
-In the dialog, press the plus icon near the top left and select Gradle.
-Then, with the new Gradle task selected in the sidebar, change the name field to "PythonAI" and the "Run" field to "run".
+In the dialog, press the plus icon near the top left and select Python.
+Then, with the new Python task selected in the sidebar, change the name field to "PythonAI" and the "Script path" field to the path of your Python file (e.g., run.py).
 Close the dialog. Then make sure your new PythonAI target is selected in the configuration dropdown.
 
 After this, you can run the project by pressing the green run arrow icon.
+
 #### Setting up dependencies
 
 - When you have the file installed, to ensure you have the correct libraries, run the following command in your project directory:
@@ -91,6 +90,7 @@ pip install -r requirements.txt
 - This is just a fancy term for a protected code that is used for the user to gain access to the AI services.
 - It's very important to add your own key to the .env file so that personal data isn't stolen (Data leaks are very bad).
 - You can create an OPENAI token here if the current code fails: [openai keys](https://platform.openai.com/settings/organization/api-keys)
+- **fyi we are currently figuring out an alternative to this**
 
 #### Project Objectives:
 
